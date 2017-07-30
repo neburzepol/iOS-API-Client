@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		F31076371F2D695700B9FB4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31076361F2D695700B9FB4B /* AppDelegate.swift */; };
-		F31076391F2D695700B9FB4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31076381F2D695700B9FB4B /* ViewController.swift */; };
 		F310763C1F2D695700B9FB4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F310763A1F2D695700B9FB4B /* Main.storyboard */; };
 		F310763E1F2D695700B9FB4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F310763D1F2D695700B9FB4B /* Assets.xcassets */; };
 		F31076411F2D695700B9FB4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F310763F1F2D695700B9FB4B /* LaunchScreen.storyboard */; };
+		F310764E1F2D705300B9FB4B /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310764D1F2D705300B9FB4B /* MainVC.swift */; };
+		F31076501F2D70E500B9FB4B /* FoodTruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310764F1F2D70E500B9FB4B /* FoodTruck.swift */; };
+		F31076521F2D767600B9FB4B /* FoodTruckReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31076511F2D767600B9FB4B /* FoodTruckReview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F31076331F2D695700B9FB4B /* api-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "api-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F31076361F2D695700B9FB4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F31076381F2D695700B9FB4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F310763B1F2D695700B9FB4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F310763D1F2D695700B9FB4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F31076401F2D695700B9FB4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F31076421F2D695700B9FB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F310764D1F2D705300B9FB4B /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		F310764F1F2D70E500B9FB4B /* FoodTruck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTruck.swift; sourceTree = "<group>"; };
+		F31076511F2D767600B9FB4B /* FoodTruckReview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTruckReview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,56 @@
 		F31076351F2D695700B9FB4B /* api-client */ = {
 			isa = PBXGroup;
 			children = (
-				F31076361F2D695700B9FB4B /* AppDelegate.swift */,
-				F31076381F2D695700B9FB4B /* ViewController.swift */,
-				F310763A1F2D695700B9FB4B /* Main.storyboard */,
-				F310763D1F2D695700B9FB4B /* Assets.xcassets */,
-				F310763F1F2D695700B9FB4B /* LaunchScreen.storyboard */,
-				F31076421F2D695700B9FB4B /* Info.plist */,
+				F310764C1F2D701400B9FB4B /* Model */,
+				F310764B1F2D700C00B9FB4B /* View */,
+				F310764A1F2D700300B9FB4B /* Controller */,
+				F31076491F2D6FFA00B9FB4B /* Resources */,
+				F31076481F2D6FE700B9FB4B /* Services */,
 			);
 			path = "api-client";
+			sourceTree = "<group>";
+		};
+		F31076481F2D6FE700B9FB4B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		F31076491F2D6FFA00B9FB4B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F310763D1F2D695700B9FB4B /* Assets.xcassets */,
+				F31076421F2D695700B9FB4B /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F310764A1F2D700300B9FB4B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F310764D1F2D705300B9FB4B /* MainVC.swift */,
+				F31076361F2D695700B9FB4B /* AppDelegate.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F310764B1F2D700C00B9FB4B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F310763A1F2D695700B9FB4B /* Main.storyboard */,
+				F310763F1F2D695700B9FB4B /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F310764C1F2D701400B9FB4B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F310764F1F2D70E500B9FB4B /* FoodTruck.swift */,
+				F31076511F2D767600B9FB4B /* FoodTruckReview.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +142,7 @@
 				TargetAttributes = {
 					F31076321F2D695600B9FB4B = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LAW8PH9SP3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +183,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F31076391F2D695700B9FB4B /* ViewController.swift in Sources */,
 				F31076371F2D695700B9FB4B /* AppDelegate.swift in Sources */,
+				F310764E1F2D705300B9FB4B /* MainVC.swift in Sources */,
+				F31076501F2D70E500B9FB4B /* FoodTruck.swift in Sources */,
+				F31076521F2D767600B9FB4B /* FoodTruckReview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +309,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LAW8PH9SP3;
 				INFOPLIST_FILE = "api-client/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.artkode.api-client";
@@ -272,6 +322,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LAW8PH9SP3;
 				INFOPLIST_FILE = "api-client/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.artkode.api-client";
