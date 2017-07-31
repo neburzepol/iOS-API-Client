@@ -14,6 +14,8 @@
 		F310764E1F2D705300B9FB4B /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310764D1F2D705300B9FB4B /* MainVC.swift */; };
 		F31076501F2D70E500B9FB4B /* FoodTruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310764F1F2D70E500B9FB4B /* FoodTruck.swift */; };
 		F31076521F2D767600B9FB4B /* FoodTruckReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31076511F2D767600B9FB4B /* FoodTruckReview.swift */; };
+		F31076541F2D804900B9FB4B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31076531F2D804900B9FB4B /* DataService.swift */; };
+		F31076561F2D81F000B9FB4B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31076551F2D81F000B9FB4B /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		F310764D1F2D705300B9FB4B /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		F310764F1F2D70E500B9FB4B /* FoodTruck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTruck.swift; sourceTree = "<group>"; };
 		F31076511F2D767600B9FB4B /* FoodTruckReview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTruckReview.swift; sourceTree = "<group>"; };
+		F31076531F2D804900B9FB4B /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		F31076551F2D81F000B9FB4B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 		F31076481F2D6FE700B9FB4B /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				F31076531F2D804900B9FB4B /* DataService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -79,6 +84,7 @@
 			children = (
 				F310763D1F2D695700B9FB4B /* Assets.xcassets */,
 				F31076421F2D695700B9FB4B /* Info.plist */,
+				F31076551F2D81F000B9FB4B /* Constants.swift */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -187,6 +193,8 @@
 				F310764E1F2D705300B9FB4B /* MainVC.swift in Sources */,
 				F31076501F2D70E500B9FB4B /* FoodTruck.swift in Sources */,
 				F31076521F2D767600B9FB4B /* FoodTruckReview.swift in Sources */,
+				F31076541F2D804900B9FB4B /* DataService.swift in Sources */,
+				F31076561F2D81F000B9FB4B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
