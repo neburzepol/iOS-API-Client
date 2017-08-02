@@ -17,6 +17,7 @@
 		F31076541F2D804900B9FB4B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31076531F2D804900B9FB4B /* DataService.swift */; };
 		F31076561F2D81F000B9FB4B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31076551F2D81F000B9FB4B /* Constants.swift */; };
 		F3AA56481F317EB400CC30DE /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA56471F317EB400CC30DE /* AuthService.swift */; };
+		F3AA564A1F318CFA00CC30DE /* FoodTruckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA56491F318CFA00CC30DE /* FoodTruckCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F31076531F2D804900B9FB4B /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		F31076551F2D81F000B9FB4B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F3AA56471F317EB400CC30DE /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		F3AA56491F318CFA00CC30DE /* FoodTruckCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTruckCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			children = (
 				F310763A1F2D695700B9FB4B /* Main.storyboard */,
 				F310763F1F2D695700B9FB4B /* LaunchScreen.storyboard */,
+				F3AA56491F318CFA00CC30DE /* FoodTruckCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				F31076541F2D804900B9FB4B /* DataService.swift in Sources */,
 				F31076561F2D81F000B9FB4B /* Constants.swift in Sources */,
 				F3AA56481F317EB400CC30DE /* AuthService.swift in Sources */,
+				F3AA564A1F318CFA00CC30DE /* FoodTruckCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
