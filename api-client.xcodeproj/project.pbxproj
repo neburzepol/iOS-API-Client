@@ -20,6 +20,7 @@
 		F3AA564A1F318CFA00CC30DE /* FoodTruckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA56491F318CFA00CC30DE /* FoodTruckCell.swift */; };
 		F3BD3C9B1F32CFD700172313 /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD3C991F32CFD700172313 /* LogInVC.swift */; };
 		F3BD3C9C1F32CFD700172313 /* LogInVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3BD3C9A1F32CFD700172313 /* LogInVC.xib */; };
+		F3BD3C9E1F32E42100172313 /* AddFoodTruckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD3C9D1F32E42100172313 /* AddFoodTruckVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		F3AA56491F318CFA00CC30DE /* FoodTruckCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTruckCell.swift; sourceTree = "<group>"; };
 		F3BD3C991F32CFD700172313 /* LogInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
 		F3BD3C9A1F32CFD700172313 /* LogInVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogInVC.xib; sourceTree = "<group>"; };
+		F3BD3C9D1F32E42100172313 /* AddFoodTruckVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFoodTruckVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				F3BD3C991F32CFD700172313 /* LogInVC.swift */,
 				F310764D1F2D705300B9FB4B /* MainVC.swift */,
 				F31076361F2D695700B9FB4B /* AppDelegate.swift */,
+				F3BD3C9D1F32E42100172313 /* AddFoodTruckVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			files = (
 				F31076371F2D695700B9FB4B /* AppDelegate.swift in Sources */,
 				F310764E1F2D705300B9FB4B /* MainVC.swift in Sources */,
+				F3BD3C9E1F32E42100172313 /* AddFoodTruckVC.swift in Sources */,
 				F31076501F2D70E500B9FB4B /* FoodTruck.swift in Sources */,
 				F31076521F2D767600B9FB4B /* FoodTruckReview.swift in Sources */,
 				F31076541F2D804900B9FB4B /* DataService.swift in Sources */,
