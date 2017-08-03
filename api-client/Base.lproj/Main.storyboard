@@ -42,11 +42,24 @@
                                             </imageView>
                                         </subviews>
                                     </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WIA-WI-hsn">
+                                        <rect key="frame" x="321" y="20" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="KZM-2J-mi4"/>
+                                            <constraint firstAttribute="width" constant="24" id="mgH-AT-H7b"/>
+                                        </constraints>
+                                        <state key="normal" image="Plus Button"/>
+                                        <connections>
+                                            <action selector="addButtonTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pRH-N7-pBE"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.48627450980392156" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="WIA-WI-hsn" secondAttribute="trailing" constant="30" id="ABl-SI-hmm"/>
                                     <constraint firstItem="UZg-TF-O56" firstAttribute="centerX" secondItem="d8p-ug-uxT" secondAttribute="centerX" id="GLC-eS-b25"/>
                                     <constraint firstAttribute="height" constant="65" id="JdC-Mf-fM2"/>
+                                    <constraint firstItem="WIA-WI-hsn" firstAttribute="top" secondItem="d8p-ug-uxT" secondAttribute="top" constant="20" id="Pel-1d-0dB"/>
                                     <constraint firstItem="UZg-TF-O56" firstAttribute="centerY" secondItem="d8p-ug-uxT" secondAttribute="centerY" id="jFi-e7-M7w"/>
                                 </constraints>
                             </view>
@@ -135,5 +148,6 @@
     </scenes>
     <resources>
         <image name="Logo" width="424" height="236"/>
+        <image name="Plus Button" width="56" height="56"/>
     </resources>
 </document>

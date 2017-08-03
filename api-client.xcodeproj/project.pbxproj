@@ -18,6 +18,8 @@
 		F31076561F2D81F000B9FB4B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31076551F2D81F000B9FB4B /* Constants.swift */; };
 		F3AA56481F317EB400CC30DE /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA56471F317EB400CC30DE /* AuthService.swift */; };
 		F3AA564A1F318CFA00CC30DE /* FoodTruckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA56491F318CFA00CC30DE /* FoodTruckCell.swift */; };
+		F3BD3C9B1F32CFD700172313 /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD3C991F32CFD700172313 /* LogInVC.swift */; };
+		F3BD3C9C1F32CFD700172313 /* LogInVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3BD3C9A1F32CFD700172313 /* LogInVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		F31076551F2D81F000B9FB4B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F3AA56471F317EB400CC30DE /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		F3AA56491F318CFA00CC30DE /* FoodTruckCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTruckCell.swift; sourceTree = "<group>"; };
+		F3BD3C991F32CFD700172313 /* LogInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
+		F3BD3C9A1F32CFD700172313 /* LogInVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogInVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		F310764A1F2D700300B9FB4B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F3BD3C991F32CFD700172313 /* LogInVC.swift */,
 				F310764D1F2D705300B9FB4B /* MainVC.swift */,
 				F31076361F2D695700B9FB4B /* AppDelegate.swift */,
 			);
@@ -108,6 +113,7 @@
 			children = (
 				F310763A1F2D695700B9FB4B /* Main.storyboard */,
 				F310763F1F2D695700B9FB4B /* LaunchScreen.storyboard */,
+				F3BD3C9A1F32CFD700172313 /* LogInVC.xib */,
 				F3AA56491F318CFA00CC30DE /* FoodTruckCell.swift */,
 			);
 			name = View;
@@ -184,6 +190,7 @@
 			files = (
 				F31076411F2D695700B9FB4B /* LaunchScreen.storyboard in Resources */,
 				F310763E1F2D695700B9FB4B /* Assets.xcassets in Resources */,
+				F3BD3C9C1F32CFD700172313 /* LogInVC.xib in Resources */,
 				F310763C1F2D695700B9FB4B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,6 +210,7 @@
 				F31076561F2D81F000B9FB4B /* Constants.swift in Sources */,
 				F3AA56481F317EB400CC30DE /* AuthService.swift in Sources */,
 				F3AA564A1F318CFA00CC30DE /* FoodTruckCell.swift in Sources */,
+				F3BD3C9B1F32CFD700172313 /* LogInVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
